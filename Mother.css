@@ -3,13 +3,11 @@
  *Date: 5/12/2019
  *Description: The css docuement Mother's thing
  */
-@media screen and (max-width: 481px){
-    .class {
+.class {
         
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        
-        }
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+    }
