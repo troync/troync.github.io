@@ -3,9 +3,9 @@
  *Date: 5/12/2019
  *Description: The css docuement Mother's thing
  */
- @keyframes upScroll {
-	 from { margin-top: 1000px;}
-	 to { matgin-top: 20px;}
+ @keyframes shootLeft {
+	 from { margin-left: 1000px;}
+	 to { matgin-left: -5px;}
  }
  
 .one {
@@ -14,14 +14,24 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    animation-name: upScroll;
-	animation-duration: 2s;
+    animation-name: shootLeft;
+	animation-duration: 4s;
     }
 .two {
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    
+    width: 100%;
+    animation-name: shootLeft;
+	animation-delay: 3s;
+	animation-duration: 4s;   
+}
+.three {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    animation-name: shootLeft;
+	animation-delay: 6s;
+	animation-duration: 4s;   
 }
