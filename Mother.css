@@ -4,14 +4,14 @@
  *Description: The css docuement Mother's thing
  */
  @keyframes shootLeft {
-	 from { margin-left: 1000px;}
+	 from { margin-left: 3000px;}
 	 to { matgin-left: -5px;}
  }
  
 .one {
         
     display: block;
-    margin-left: auto;
+    margin-left: 3000px;
     margin-right: auto;
     width: 100%;
     animation-name: shootLeft;
@@ -19,7 +19,7 @@
     }
 .two {
     display: block;
-    margin-left: auto;
+    margin-left: 3000px;
     margin-right: auto;
     width: 100%;
     animation-name: shootLeft;
@@ -28,7 +28,7 @@
 }
 .three {
     display: block;
-    margin-left: auto;
+    margin-left: 3000px;
     margin-right: auto;
     width: 100%;
     animation-name: shootLeft;
