@@ -3,8 +3,16 @@
  *Date: 5/12/2019
  *Description: The css docuement Mother's thing
  */
- @keyframes shootLeft {
+ @keyframes shootLeft1 {
 	 from { margin-left: 3000px;}
+	 to { matgin-left: -5px;}
+ }
+ @keyframes shootLeft2 {
+	 from { margin-left: 4000px;}
+	 to { matgin-left: -5px;}
+ }
+ @keyframes shootLeft3 {
+	 from { margin-left: 5000px;}
 	 to { matgin-left: -5px;}
  }
  
@@ -13,20 +21,20 @@
     display: block;
     margin-right: auto;
     width: 100%;
-    animation-name: shootLeft;
-	animation-duration: 4s;
+    animation-name: shootLeft1;
+	animation-duration: 3s;
     }
 .two {
     display: block;
     margin-right: auto;
     width: 100%;
-    animation-name: shootLeft;
-	animation-duration: 6s;   
+    animation-name: shootLeft2;
+	animation-duration: 4s;   
 }
 .three {
     display: block;
     margin-right: auto;
     width: 100%;
-    animation-name: shootLeft;
-	animation-duration: 8s;   
+    animation-name: shootLeft3;
+	animation-duration: 5s;   
 }
