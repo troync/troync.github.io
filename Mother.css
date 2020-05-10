@@ -21,14 +21,12 @@
     margin-right: auto;
     width: 100%;
     animation-name: shootLeft;
-	animation-delay: 3s;
-	animation-duration: 4s;   
+	animation-duration: 6s;   
 }
 .three {
     display: block;
     margin-right: auto;
     width: 100%;
     animation-name: shootLeft;
-	animation-delay: 6s;
-	animation-duration: 4s;   
+	animation-duration: 8s;   
 }
